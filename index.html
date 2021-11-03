@@ -1,33 +1,23 @@
-<!-- Comments are never executed -->
+!DOCTYPE html>
+<html>
 
-<!-- This is the heading tag -->
-<h1>Hello, This is a header</h1>
-<h2>This is a second header</h2>
+<!-- The head never displays on the main page -->
 
+<head>
+    <title>My first webpage!</title>
+    <!-- This is the key to linking your html file to your stylesheet -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
 
-<p>Click to go to website <a href="http://www.moringaschool.com">Here</a></p>
-<p>Click <a href="secondary.html">Here</a></p>
+<!-- The body is everything that is displayed on the page -->
 
-<!--Linking a word to a new page/ other website -->
-<!-- If you're linking to an external website always start with http -->
-<!-- <a href="points to destination">favorite things</a> -->
+<body>
+    <h1>Hello, world!</h1>
 
-<!-- How to add an image to your site -->
-<img src="lion.jpeg">
+    <p>Welcome to my first web page!</p>
 
-<!-- Create a list -->
-<ul>
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-</ul>
+    <p id="customStyle">I want to have a custom style</p>
+    <p class="anotherStyle">I also want to have a custom style</p>
+</body>
 
-<ol>
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-</ol>
-
-<progress id="file" value="32" max="100"> 32% </progress>
-
-<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+</html>
